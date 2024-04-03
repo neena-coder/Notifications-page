@@ -1,0 +1,262 @@
+:root{
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+}
+@font-face {
+    font-family: plus;
+    src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: plus;
+}
+p{
+    color: var(--Grayish-blue);
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Light-grayish-blue-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    width: 50%;
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.id{
+    background-color: var(--Blue);
+    color: white;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+
+}
+
+
+
+.mark:hover{
+    cursor: pointer;
+    color: var(--Blue);
+
+}
+.notifications .content{
+    display: flex;
+    margin-top: 0.5rem;   
+    background-color: var(--Very-light-grayish-blue);
+    padding: 0.7rem 0.5rem;
+    border-radius: 0.7rem;
+}
+
+
+.notifications .write{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notifications .content img{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.notifications .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding: 0rem 1rem 0rem  0rem;
+}
+
+span{
+    font-weight: bolder;
+    color: black;
+}
+
+.activity{
+    font-weight: bolder;
+    color: var(--Dark-grayish-blue);
+}
+
+.chess{
+    font-weight: bolder;
+    color: var(--Blue);
+}
+.time{
+    margin-top: 0.2rem;
+}
+span:hover{
+    cursor: pointer;
+    color: var(--Blue);
+}
+
+
+
+.notifications .kim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rizky{
+    background-color: var(--Light-grayish-blue2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.red{
+    width: 8px;
+    height: 8px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+ 
+    
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+main {
+    width: 100%;
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.id{
+    background-color: var(--Blue);
+    color: white;
+    font-weight: bolder;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+
+}
+
+
+
+.mark:hover{
+    cursor: pointer;
+    color: var(--Blue);
+
+}
+.notifications .content{
+    display: flex;
+    margin: 1rem;   
+    background-color: var(--Very-light-grayish-blue);
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+
+.notifications .write{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notifications .content img{
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.notifications .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 0rem 1rem 0rem  0rem;
+}
+
+span{
+    font-weight: bolder;
+    color: black;
+}
+
+.activity{
+    font-weight: bolder;
+    color: var(--Dark-grayish-blue);
+}
+
+.chess{
+    font-weight: bolder;
+    color: var(--Blue);
+}
+.time{
+    margin-top: 0.2rem;
+}
+span:hover{
+    cursor: pointer;
+    color: var(--Blue);
+}
+
+
+
+.notifications .kim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rizky{
+    background-color: white;
+    border: 1px solid var(--Light-grayish-blue2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.red{
+    width: 8px;
+    height: 8px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+}
